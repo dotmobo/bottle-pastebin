@@ -8,7 +8,7 @@ setup(
     include_package_data=True,
     author = 'mobo',
     author_email = 'pastebinbottle@gmail.com',
-    url = '',
+    url = 'https://github.com/morganbohn/bottle-pastebin',
     
     install_requires  = [
         'PyYAML==3.10',
