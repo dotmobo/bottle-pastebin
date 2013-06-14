@@ -1,0 +1,10 @@
+/* bottle-pastebin css file */
+
+#permalink {
+	width:175px;
+	cursor: text;
+}
+
+#readtext {
+	cursor: text;
+}

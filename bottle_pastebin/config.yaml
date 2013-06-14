@@ -1,0 +1,12 @@
+--- # config file
+
+# Server
+static_path: static/
+server_url: http://localhost:8080
+
+# Database
+db_host: localhost
+db_name: bottle-pastebin
+db_user: bottle-pastebin
+db_password: bottle-pastebin
+db_port: 5432

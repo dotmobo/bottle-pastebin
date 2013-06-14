@@ -1,0 +1,8 @@
+recursive-include bottle_pastebin/static/js *.js 
+recursive-include bottle_pastebin/static/css *.css 
+
+recursive-include bottle_pastebin/static/img *.png *.jpg *.gif
+
+recursive-include bottle_pastebin/views *.tpl
+
+recursive-include bottle_pastebin *.yaml
