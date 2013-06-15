@@ -15,3 +15,6 @@ An encrypted and anonymous PasteBin based on the python web framework named Bott
 ## Run
 * Run the server with the command "python3 server.py"
 * Go to http://localhost:8080
+
+## Production
+* Use an HTTPS apache (or nginx) server to protect the sent data
