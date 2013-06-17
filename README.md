@@ -10,7 +10,8 @@ An encrypted and anonymous PasteBin based on the python web framework named Bott
 * Create a postgres database
 * Configure the config.yaml file
 * Run "python3 database.py" to create tables
-* Create an hourly cron job with the command "python3 cron.py" to delete the expired pastes
+* Create a daily cron job to delete the expired pastes like :
+<code>0   0    *   *   *   cd /projectpath/bottle_pastebin && /usr/bin/python3 /projectpath/bottle_pastebin/cron.py >/dev/null 2>&1</cod>
 
 ## Run
 * Run the server with the command "python3 server.py"
