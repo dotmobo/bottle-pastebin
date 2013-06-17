@@ -65,8 +65,11 @@ def get_text(code):
         date_limit = dateLimit(text.date_creation,text.valid.duration) 
         date_limit_str = datetime.datetime.strftime(date_limit, "%Y-%m-%d %Hh:%Mm:%Ss")
     
-        #show template
-        return dict(text_decrypted=text_decrypted,date_limit=date_limit_str)
+        if(datetime.datetime.now()>date_limit):
+            return 'Nothing here, sorry'
+        else:
+            #show template
+            return dict(text_decrypted=text_decrypted,date_limit=date_limit_str)
     except:
         return 'Nothing here, sorry'
     
